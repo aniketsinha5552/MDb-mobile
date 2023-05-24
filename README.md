@@ -1,14 +1,3 @@
-# Expo Router Example
+A React Native Movies App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
-
-## 🚀 How to use
-
-```sh
-npx create-expo-app -e with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+![1684938970011](https://github.com/aniketsinha5552/MDb-mobile/assets/104712880/f0510f47-47a9-4d1b-969e-e4478293af2b)
