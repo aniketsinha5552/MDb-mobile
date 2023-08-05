@@ -10,7 +10,7 @@ const useFetch = (endpoint) => {
     setLoading(true);
     try {
       const res = await axios.get(
-        `https://api.themoviedb.org/3/movie/${endpoint}?api_key=2f0504208b8b68dce9f789c80febfec7&language=en-US&page=1`
+        `https://api.themoviedb.org/3/movie/${endpoint}?api_key=2f0c3fdc41e63e90160faf43d6b3010c&language=en-US&page=1`
       );
       setData(res.data.results);
       setLoading(false);
