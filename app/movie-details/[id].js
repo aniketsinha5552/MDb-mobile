@@ -22,12 +22,13 @@ const MoviesDetails = () => {
 
   const [movie, setMovie] = useState({});
   const [loading, setLoading] = useState(true);
+  const key = '2f0c3fdc41e63e90160faf43d6b3010c'
 
   const getMovie = async () => {
     setLoading(true);
     try {
       let res = await axios.get(
-        `https://api.themoviedb.org/3/movie/${params.id}?language=en-US&api_key=2f0504208b8b68dce9f789c80febfec7`
+        `https://api.themoviedb.org/3/movie/${params.id}?language=en-US&api_key=${key}`
       );
       setMovie(res.data);
       setLoading(false);

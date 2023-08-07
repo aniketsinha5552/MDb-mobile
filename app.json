@@ -4,15 +4,9 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "mdb-mobile",
+    "name": "MDb",
     "slug": "mdb-mobile",
-    "extra": {
-      "eas": {
-        "projectId": "a725be5f-b099-4561-b73a-bbf15e9f40ee"
-      }
-    },
-    "android": {
-      "package": "com.aniketsinha.mdbmobile"
-    }
+    "description": "A movie database app",
+    "icon": "./images/logo.png"
   }
 }
